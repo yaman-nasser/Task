@@ -1,0 +1,40 @@
+
+.head{
+    color: aliceblue;
+    background-color: rgb(59, 138, 138);
+    height: 100px;
+    margin: 0;
+    padding-top: 10px;
+    box-shadow: 10px 5px 10px #000;
+}
+.cont{
+    margin: 20px;
+    width: 40%;
+    border: solid 5px rgb(59, 138, 138);
+    position: relative;
+    left: 20%;
+    top: 10px;
+}
+.list{
+    border: solid 5px rgb(59, 138, 138);
+    border-radius: 10px;
+    width: 200px;
+    height: 400px;
+   position: absolute;
+   left: 80%;
+   top: 20%;
+    
+}
+.btn{
+      
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(59, 138, 138);
+    border: solid 2px #615f5f;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: aqua;
+    box-shadow: 5px 5px 5px #000;
+}
